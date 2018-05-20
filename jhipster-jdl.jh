@@ -1,0 +1,19 @@
+
+entity Repo {
+	name String,
+    description String,
+    path String,
+    logoUrl String
+}
+
+entity Commit {
+	id String,
+    user String,
+    date LocalDate
+}
+
+entity Branch {
+	name String,
+    date LocalDate
+}
+
